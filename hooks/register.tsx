@@ -16,9 +16,9 @@ const PREFIX = 'clawd5-'
 const LOAD = Date.now().toString(36)
 const OFF = 'off'
 
-const SELF = 'clawd'
-const SCENE_REF = { plugin: 'clawd', key: 'scene' } as const
-const BAND_REF = { plugin: 'clawd', key: 'band' } as const
+const SELF = 'clawd-scenes'
+const SCENE_REF = { plugin: 'clawd-scenes', key: 'scene' } as const
+const BAND_REF = { plugin: 'clawd-scenes', key: 'band' } as const
 
 // Where a switch's circle starts: the picked tile's place in the card's row,
 // which holds Default and then each scene, centred, one tile (112px) plus the

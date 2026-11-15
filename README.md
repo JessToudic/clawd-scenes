@@ -9,7 +9,7 @@ Scenes are drawn behind the chat in the Claude desktop app and on mobile. The te
 At the prompt of a Claude Code terminal session:
 
 ```
-/plugin install clawd --marketplace JessToudic/clawd-scenes
+/plugin install clawd-scenes --marketplace JessToudic/clawd-scenes
 ```
 
 Answer `y` to add the marketplace, then press Enter to install for your user.
@@ -17,7 +17,7 @@ Answer `y` to add the marketplace, then press Enter to install for your user.
 From a shell:
 
 ```
-claude plugin install clawd --marketplace JessToudic/clawd-scenes
+claude plugin install clawd-scenes --marketplace JessToudic/clawd-scenes
 ```
 
 In the desktop app, where `/plugin` doesn't run: click + next to the prompt box, then Plugins, then Add marketplace with `JessToudic/clawd-scenes`, then Add plugin.
