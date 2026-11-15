@@ -6,21 +6,23 @@ Scenes are drawn behind the chat in the Claude desktop app and on mobile. The te
 
 ## Install
 
-At the prompt of a Claude Code terminal session:
+In a normal terminal (the `%` or `$` prompt), run these two lines:
 
 ```
-/plugin install clawd-scenes --marketplace JessToudic/clawd-scenes
+claude plugin marketplace add JessToudic/clawd-scenes
+claude plugin install clawd-scenes@clawd-scenes
 ```
 
-Answer `y` to add the marketplace, then press Enter to install for your user.
-
-From a shell:
+Or, inside a Claude Code session (after typing `claude`):
 
 ```
-claude plugin install clawd-scenes --marketplace JessToudic/clawd-scenes
+/plugin marketplace add JessToudic/clawd-scenes
+/plugin install clawd-scenes@clawd-scenes
 ```
 
 In the desktop app, where `/plugin` doesn't run: click + next to the prompt box, then Plugins, then Add marketplace with `JessToudic/clawd-scenes`, then Add plugin.
+
+Start a new session afterwards, then type `/clawd`.
 
 ## Use
 
