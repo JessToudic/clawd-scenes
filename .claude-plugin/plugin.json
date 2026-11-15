@@ -1,1 +1,1 @@
-{ "name": "clawd-scenes", "version": "0.2.0", "description": "Little pixel Clawds living behind the chat, in five scenes. /clawd picks one.", "types": "./types/index.d.ts" }
+{ "name": "clawd-scenes", "version": "0.2.0", "description": "Little pixel Clawds living behind the chat, in five scenes. /clawd-scenes picks one.", "types": "./types/index.d.ts" }

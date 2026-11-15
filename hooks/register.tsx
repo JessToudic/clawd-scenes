@@ -11,7 +11,7 @@ import { thumb } from './thumbs.ts'
 
 const SCENES: readonly Scene[] = [cafe, beach, garden, snow, campfire]
 const DEFAULT = cafe.id
-const COMMAND = 'clawd'
+const COMMAND = 'clawd-scenes'
 const PREFIX = 'clawd5-'
 const LOAD = Date.now().toString(36)
 const OFF = 'off'

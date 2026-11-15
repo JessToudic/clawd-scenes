@@ -10,7 +10,7 @@ const BAND = {
 test('the picker is image tiles with Default first, and a press picks', async ($, on) => {
   // Nothing sits beneath the plugin: these hooks stand for the engine.
   const themes: unknown[] = []
-  on('command.register', () => ({ value: { command: 'clawd' } }))
+  on('command.register', () => ({ value: { command: 'clawd-scenes' } }))
   on('theme.set', (_, e) => {
     themes.push(e)
     return { value: { isDrawn: true, requestId: 'bg' } }
@@ -25,7 +25,7 @@ test('the picker is image tiles with Default first, and a press picks', async ($
   on('session.start', (_, e) => ({ cwd: e.cwd }))
 
   await $.session.start({ cwd: '/', surface: 'desktop', isInteractive: true })
-  await $.command.run({ command: 'clawd', args: '', origin: { kind: 'sdk' }, presentation: { isFullscreen: false, columns: 100 } })
+  await $.command.run({ command: 'clawd-scenes', args: '', origin: { kind: 'sdk' }, presentation: { isFullscreen: false, columns: 100 } })
 
   for (const surface of ['desktop', 'terminal'] as const) {
     const ui = await $.ui.mount({ ...BAND, surface })

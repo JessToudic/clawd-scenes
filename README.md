@@ -1,6 +1,6 @@
 # Clawd scenes
 
-Little pixel Clawds living behind the chat in Claude Code, in five scenes: Café, Beach, Garden, Snow and Campfire. Type `/clawd` to open a picker above the message box. Clicking a scene opens it in a circle that grows from the tile you clicked.
+Little pixel Clawds living behind the chat in Claude Code, in five scenes: Café, Beach, Garden, Snow and Campfire. Type `/clawd-scenes` to open a picker above the message box. Clicking a scene opens it in a circle that grows from the tile you clicked.
 
 Scenes are drawn behind the chat in the Claude desktop app and on mobile. The terminal doesn't show them.
 
@@ -22,11 +22,11 @@ Or, inside a Claude Code session (after typing `claude`):
 
 In the desktop app, where `/plugin` doesn't run: click + next to the prompt box, then Plugins, then Add marketplace with `JessToudic/clawd-scenes`, then Add plugin.
 
-Start a new session afterwards, then type `/clawd`.
+Start a new session afterwards, then type `/clawd-scenes`.
 
 ## Use
 
-- `/clawd` opens the picker. Tab or the arrow keys move between scenes, and Esc closes it.
-- `/clawd <name>` picks a scene directly, for example `/clawd snow`.
-- `/clawd list` lists the scenes.
-- `/clawd off` goes back to the app's own look.
+- `/clawd-scenes` opens the picker. Tab or the arrow keys move between scenes, and Esc closes it.
+- `/clawd-scenes <name>` picks a scene directly, for example `/clawd-scenes snow`.
+- `/clawd-scenes list` lists the scenes.
+- `/clawd-scenes off` goes back to the app's own look.
