@@ -1,0 +1,6 @@
+{
+  "name": "clawd-scenes",
+  "description": "Pixel Clawd scenes behind the Claude Code chat.",
+  "owner": { "name": "JessToudic" },
+  "plugins": [{ "name": "clawd", "source": "./" }]
+}
